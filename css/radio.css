@@ -16,6 +16,27 @@ h1 {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+li a {
+    float: left;
+    padding: 10px;
+    background-color: #1a1a1a;
+    text-align: center;
+    text-decoration: none;
+    color: white
+}
+
+li a:hover{
+    color: #dddddd
+}
+
 ul{
     list-style-type: none;
     padding-left: 2px;
@@ -27,12 +48,14 @@ ul{
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
+
 .one {
   grid-column: 1 / 2;
   color: #ffb5bf;
-  
 }
+
 .two { 
   grid-column: 2 / 2;
   color: #9addf9;
 }
+
