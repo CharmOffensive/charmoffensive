@@ -1,11 +1,9 @@
+/*stylings for index page and navbar*/
+
 body {
     background-color: #0f0f0f;
     color: white;
-    /*font-family: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";*/
     font-family: "Courier New", Courier, monospace;
-    
 }
 
 h1 {
@@ -31,32 +29,26 @@ h1 {
 li a {
     float: left;
     padding: 10px;
-    /*background-color: #0f0f0f;*/
     text-align: center;
     text-decoration: none;
     color: white;
     margin-right: 10px;
 }
 
-li a:hover{
+li a:hover {
     color: #dddddd
 }
 
-.empty{
+.empty {
     color:#0f0f0f;
     float: left;
     padding: 10px;
-    /*background-color: #0f0f0f;*/
     text-align: center;
     text-decoration: none;
     margin-right: 10px;
 }
-.radioname{
-    /*display: inline;*/
-    /*align: center;*/
-}
 
-ul{
+ul {
     list-style-type: none;
     padding-left: 0px;
 }
@@ -89,36 +81,55 @@ hr {
     max-width: 1000px;
 }
 
-.wrappershows {
+/*stylings for shows page*/
+
+.wrapper-shows {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(300px, auto);
+    padding: 5px;
+}
+
+.column-one-shows{
+    border: 1px solid white;
+}
+
+.column-two-shows{
+    border: 1px solid white;
+}
+
+.column-three-shows{
+    border: 1px solid white;
+}
+
+.column-four-shows{
+    border: 1px solid white;
+}
+
+.main-one-shows {
     padding: 10px;
 }
 
-.oneshows{
-    border: 1px solid white;
+.main-two-shows {
+    padding: 10px;
 }
 
-.twoshows{
-    border: 1px solid white;
+.main-three-shows {
+    padding: 10px;
 }
 
-.threeshows{
-    border: 1px solid white;
+.main-four-shows {
+    padding: 10px;
 }
 
-.fourshows{
-    border: 1px solid white;
+.img-shows{
+    /*margin: 10px;*/
+    /*padding-bottom: 0;*/
+    /*margin-bottom: 0;*/
 }
 
-.imgshows{
-    padding-left: 8px;
-    padding-top: 8px;
-}
-
-.h1shows {
+.h1-shows {
     text-align: center;
     font-family: 
     -apple-system, BlinkMacSystemFont,
@@ -126,33 +137,31 @@ hr {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.textshows {
-    margin-left: 13px;
-    margin-right: 13px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    /*margin-top: 2px;*/
-    line-height: 10px;
+.text-shows a{
+    text-decoration: none;
+    color: white;
     display: block;
+    /*margin-left: 13px;*/
+    /*margin-right: 13px;*/
 }
 
-.textshows:hover {
+.text-shows a:hover {
     color:#0f0f0f;
     background-color: white;
 }
 
-.tags {
+.tags a{
     float: left;
     display: block;
-    margin-left: 13px;
-    margin-bottom: 15px;
-    padding: 3px;
+    /*margin-left: 13px;*/
+    margin-bottom: 10px;
+    padding: 4px;
     font-size: 0.75em;
     background-color: #9c9c9c;
     color: #0f0f0f;
 }
 
-.tags:hover {
+.tags a:hover {
     color:#0f0f0f;
     background-color: #d1d1d1;
 }
