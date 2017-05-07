@@ -3,6 +3,7 @@
 <head>
     <title>radioname.cool</title>
     <link rel="stylesheet" type="text/css" href="css/radio.css">
+    <script type="text/javascript" src="radio.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -21,7 +22,13 @@
         <p>radioname</p>
         </div>
         <div id="menu-narrow">
-            <button id="menu-button">menu</button>
+            <button class="menu-button" onclick="myFunction()">menu</button>
+            <div id="dropdown-menu" class="dropdown-content">
+                <a href="index.html">radioname</a>
+                <a href="about.html">about</a>
+                <a href="shows.html">shows</a>
+                <a href="shop.html">shop</a>
+            </div>
         </div>    
     </div>
     <div class="main">

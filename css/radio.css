@@ -224,22 +224,64 @@ ul {
         float: left;
     }
 
-    #menu-button {
+    .menu-button {
         font-family: "Courier New", Courier, monospace;
         background-color: #0f0f0f;
         color: white;
         border: none;
         font-size: 1em;
+        cursor: pointer;
+    }
+
+    .menu-button:hover, .menu-button:focus {
+    background-color: #0f0f0f;
+}
+
+    #menu-narrow {
+        position: relative;
+        display: inline-block;
+        background-color: #0f0f0f;
+        
+        
+    }
+
+    .dropdown-content {
+        display: none;
+        /*float:left;*/
+        position: absolute;
+        right: 0px;
+        top: 50px;
+        width: 125px;
+        /*min-width: 150;*/
+        /*max-width: 570px;*/
+        /*width: 100%;*/
+        z-index: 1;
+        background-color: #0f0f0f;
+        
+    }
+
+    .dropdown-content a {
+        background-color: #0f0f0f;
+        color: white;
+        text-decoration: none;
+        padding: 12px 16px;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        color: #0f0f0f;
+        background-color: white;
     }
 
     #menu-narrow {
         float: right;
         margin-top: 15px;
         margin-right: 10px;
-
-
     }
 
+    .show {
+        display: block;
+    }
 
     .wrapper {
         display: inline;
