@@ -24,6 +24,7 @@ h1 {
     border-bottom: 1px solid white;
     margin: 0;
     background-color: #0f0f0f;
+    margin: 0 auto;
 }
     
 
@@ -39,6 +40,20 @@ li a {
 
 li a:hover{
     color: #dddddd
+}
+
+.empty{
+    color:#0f0f0f;
+    float: left;
+    padding: 10px;
+    /*background-color: #0f0f0f;*/
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.radioname{
+    /*display: inline;*/
+    /*align: center;*/
 }
 
 ul{
@@ -72,4 +87,72 @@ hr {
     margin-top: 50px;
     margin: 50px auto 50px;
     max-width: 1000px;
+}
+
+.wrappershows {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(300px, auto);
+    padding: 10px;
+}
+
+.oneshows{
+    border: 1px solid white;
+}
+
+.twoshows{
+    border: 1px solid white;
+}
+
+.threeshows{
+    border: 1px solid white;
+}
+
+.fourshows{
+    border: 1px solid white;
+}
+
+.imgshows{
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.h1shows {
+    text-align: center;
+    font-family: 
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.textshows {
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    /*margin-top: 2px;*/
+    line-height: 10px;
+    display: block;
+}
+
+.textshows:hover {
+    color:#0f0f0f;
+    background-color: white;
+}
+
+.tags {
+    float: left;
+    display: block;
+    margin-left: 13px;
+    margin-bottom: 15px;
+    padding: 3px;
+    font-size: 0.75em;
+    background-color: #9c9c9c;
+    color: #0f0f0f;
+}
+
+.tags:hover {
+    color:#0f0f0f;
+    background-color: #d1d1d1;
 }
