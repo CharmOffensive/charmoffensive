@@ -1,19 +1,44 @@
-@media screen and (min-width: 892px) and (max-width: 1500px) {
-
-    /*stylings for index page and navbar*/
-
-    body {
+body {
         background-color: #0f0f0f;
         color: white;
         font-family: "Courier New", Courier, monospace;
-    }
+}
 
-    h1 {
-        font-family: 
-        -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Helvetica, Arial, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    }
+h1 {
+    font-family: 
+    -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+hr {
+    background-color: white;
+    width: auto;
+}
+
+
+li a {
+    float: left;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+li a:hover {
+    color: #dddddd
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+
+@media screen and (min-width: 892px) and (max-width: 1500px) {
+
+    /*stylings for index page and navbar*/
 
     .navbar {
         list-style-type: none;
@@ -29,25 +54,6 @@
         
     .navigation-narrow {
         display: none;
-    }
-
-    li a {
-        float: left;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        margin-right: 10px;
-    }
-
-    li a:hover {
-        color: #dddddd
-    }
-
-
-    ul {
-        list-style-type: none;
-        padding-left: 0px;
     }
 
     .wrapper {
@@ -67,10 +73,6 @@
     color: #9addf9;
     }
 
-    hr {
-        background-color: white;
-        width: auto;
-    }
 
     .main {
         margin-top: 50px;
@@ -162,18 +164,7 @@
 
 
 @media screen and (min-width: 570px) and (max-width: 892px) {
-    body {
-        background-color: #0f0f0f;
-        color: white;
-        font-family: "Courier New", Courier, monospace;
-    }
 
-    h1 {
-        font-family: 
-        -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Helvetica, Arial, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    }
 
     .navbar {
         list-style-type: none;
@@ -191,86 +182,42 @@
         display: none;
     }
 
-    li a {
-        float: left;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        margin-right: 10px;
-    }
-
-    li a:hover {
-        color: #dddddd
-    }
-
-    ul {
-        list-style-type: none;
-        padding-left: 0px;
-    }
-
     .wrapper {
         display: inline;
-        /*grid-template-columns: repeat(2, 1fr);
-        grid-gap: 50px;
-        grid-auto-rows: minmax(100px, auto);*/
     }
 
     .one {
-        /*grid-column: 1 / 2;*/
         color: #ffb5bf;
         padding: 10px;
-        /*padding-right: 300px;*/
     }
 
     .two { 
-        /*grid-column: 2 / 2;*/
         color: #9addf9;
         padding: 10px;
-        /*padding-right: 300px;*/
-    }
-
-    hr {
-        background-color: white;
-        width: auto;
     }
 
     .main {
         margin-top: 50px;
-        /*margin: 50px auto 50px;*/
-        /*max-width: 1000px;*/
     }    
 
 }
 
 @media screen and (max-width: 570px) {
-    body {
-        background-color: #0f0f0f;
-        color: white;
-        font-family: "Courier New", Courier, monospace;
-    }
-
-    h1 {
-        font-family: 
-        -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Helvetica, Arial, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    }
 
     .navbar {
         display: none;
     }
 
-.navigation-narrow {
-    border-bottom: 1px solid white;
-    top: 0;
-    position: fixed;
-    width: 100%;
-    background-color: #0f0f0f;
-    margin: 0;
-    margin: 0 auto;
+    .navigation-narrow {
+        border-bottom: 1px solid white;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        background-color: #0f0f0f;
+        margin: 0;
+        margin: 0 auto;
 
-}
+    }
 
     #title-narrow {
         font-size: 1em;
@@ -293,51 +240,23 @@
 
     }
 
-    li a {
-        float: left;
-        padding: 10px;
-        text-align: center;
-        text-decoration: none;
-        color: white;
-        margin-right: 10px;
-    }
-
-    li a:hover {
-        color: #dddddd
-    }
-
-    ul {
-        list-style-type: none;
-        padding-left: 0px;
-    }
 
     .wrapper {
         display: inline;
     }
 
     .one {
-        /*grid-column: 1 / 2;*/
         color: #ffb5bf;
         padding: 10px;
-        /*padding-right: 300px;*/
     }
 
     .two { 
-        /*grid-column: 2 / 2;*/
         color: #9addf9;
         padding: 10px;
-        /*padding-right: 300px;*/
-    }
-
-    hr {
-        background-color: white;
-        width: auto;
     }
 
     .main {
         margin-top: 50px;
-        /*margin: 50px auto 50px;*/
-        /*max-width: 1000px;*/
     }    
 
 
