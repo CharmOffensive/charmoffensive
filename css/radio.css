@@ -1,3 +1,5 @@
+/*standard CSS for everywhere*/
+
 body {
         background-color: #0f0f0f;
         color: white;
@@ -35,22 +37,32 @@ ul {
     padding-left: 0px;
 }
 
+.navbar {
+    list-style-type: none;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+    margin: 0;
+    background-color: #0f0f0f;
+    margin: 0 auto;
+}
+
+
+    
+@media screen and (min-width: 1500px) {
+    .navigation-narrow {
+        display: none;
+    }
+
+}
+
+
 
 @media screen and (min-width: 892px) and (max-width: 1500px) {
-
+/*laptop size*/
     /*stylings for index page and navbar*/
-
-    .navbar {
-        list-style-type: none;
-        padding: 0px;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        border-bottom: 1px solid white;
-        margin: 0;
-        background-color: #0f0f0f;
-        margin: 0 auto;
-    }
         
     .navigation-narrow {
         display: none;
@@ -82,12 +94,8 @@ ul {
 
     /*stylings for shows page*/
 
-    .h1-shows {
+    #h1-shows {
         text-align: center;
-        font-family: 
-        -apple-system, BlinkMacSystemFont,
-        "Segoe UI", Helvetica, Arial, sans-serif,
-        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     }
 
     .wrapper-shows {
@@ -98,35 +106,11 @@ ul {
         padding: 5px;
     }
 
-    .column-one-shows{
+    .column-shows{
         border: 1px solid white;
     }
 
-    .column-two-shows{
-        border: 1px solid white;
-    }
-
-    .column-three-shows{
-        border: 1px solid white;
-    }
-
-    .column-four-shows{
-        border: 1px solid white;
-    }
-
-    .main-one-shows {
-        padding: 10px;
-    }
-
-    .main-two-shows {
-        padding: 10px;
-    }
-
-    .main-three-shows {
-        padding: 10px;
-    }
-
-    .main-four-shows {
+    .main-body-shows {
         padding: 10px;
     }
 
@@ -164,19 +148,7 @@ ul {
 
 
 @media screen and (min-width: 570px) and (max-width: 892px) {
-
-
-    .navbar {
-        list-style-type: none;
-        padding: 0px;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        border-bottom: 1px solid white;
-        margin: 0;
-        background-color: #0f0f0f;
-        margin: 0 auto;
-    }
+/*tablet size*/
     
     .navigation-narrow {
         display: none;
@@ -203,6 +175,11 @@ ul {
 }
 
 @media screen and (max-width: 570px) {
+/*mobile size*/
+
+    .main {
+            margin-top: 50px;
+        }    
 
     .navbar {
         display: none;
@@ -247,14 +224,10 @@ ul {
 
     .dropdown-content {
         display: none;
-        /*float:left;*/
         position: absolute;
         right: 0px;
         top: 50px;
         width: 125px;
-        /*min-width: 150;*/
-        /*max-width: 570px;*/
-        /*width: 100%;*/
         z-index: 1;
         background-color: #0f0f0f;
         
@@ -296,10 +269,5 @@ ul {
         color: #9addf9;
         padding: 10px;
     }
-
-    .main {
-        margin-top: 50px;
-    }    
-
 
 }
