@@ -1,4 +1,4 @@
-/*standard CSS for everywhere*/
+/*Universal CSS*/
 
 body {
         background-color: #0f0f0f;
@@ -49,152 +49,195 @@ ul {
     margin: 0 auto;
 }
 
+.main-shows {
+    margin: 50px auto 50px;
+    max-width: 100%;
+}
 
+#h1-shows {
+    text-align: center;
+}
+
+.wrapper-shows {
+    display: grid;
+    grid-gap: 15px;
     
-@media screen and (min-width: 1500px) {
-    .navigation-narrow {
-        display: none;
-    }
+}
 
+.column-shows{
+    border: 1px solid white;
+    
+}
+
+.main-body-shows {
+    padding: 10px;
+}
+
+.img-shows {
+    max-width: 100%;
+    justify-content: stretch;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-shows a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    bottom: 0;
+}
+
+.text-shows a:hover {
+    color:#0f0f0f;
+    background-color: white;
+}
+
+.tags a{
+    float: left;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #9c9c9c;
+    color: #0f0f0f;
+}
+
+.tags a:hover {
+    color:#0f0f0f;
+    background-color: #d1d1d1;
 }
 
 
-
-@media screen and (min-width: 892px) and (max-width: 1500px) {
+/*shows*/
+@media screen and (min-width: 1150px) and (max-width: 1500px) {
 /*laptop size*/
-    /*stylings for index page and navbar*/
-        
     .navigation-narrow {
         display: none;
-    }
-
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 50px;
-        grid-auto-rows: minmax(100px, auto);
-        
-    }
-
-    .one {
-    grid-column: 1 / 2;
-    color: #ffb5bf;
-    }
-
-    .two { 
-    grid-column: 2 / 2;
-    color: #9addf9;
-    }
-
-
-    .main {
-        margin-top: 50px;
-        margin: 50px auto 50px;
-        max-width: 1000px;
-    }
-
-    /*stylings for shows page*/
-
-    /*.main-shows {
-        margin: 50px auto 50px;
-        max-width: 100%;
-    }
-
-    #h1-shows {
-        text-align: center;
     }
 
     .wrapper-shows {
-        display: grid;
+        /*display: grid;*/
         grid-template-columns: repeat(4, 23.5vw); 
         grid-template-rows: 22vw;
-        grid-gap: 15px;
+        /*grid-gap: 15px;*/
         
     }
 
-    .column-shows{
-        border: 1px solid white;
-        
-    }
-
-    .main-body-shows {
-        padding: 10px;
-    }
 
     .img-shows {
-        max-width: 100%;
         height: 12vw;
-        justify-content: stretch;
         background-image: url('https://www.sfjazz.org/sites/default/files/articlehero_hotplate_gil_scott-heron.jpg?1339632935');
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .text-shows a {
-        text-decoration: none;
-        color: white;
-        display: block;
-        bottom: 0;
         font-size: 1.2vw;
     }
 
-    .text-shows a:hover {
-        color:#0f0f0f;
-        background-color: white;
-    }
 
     .tags a{
-        float: left;
-        display: block;
-        margin-bottom: 10px;
         padding: 0.2vw;
         font-size: 0.8vw;
-        background-color: #9c9c9c;
-        color: #0f0f0f;
+
     }
 
-    .tags a:hover {
-        color:#0f0f0f;
-        background-color: #d1d1d1;
-    }*/
-
+    .navigation-narrow {
+        display: none;
+    }
 }
 
+@media screen and (max-width: 1150px) and (min-width: 900px) {
+/*big tablet*/
 
-@media screen and (min-width: 570px) and (max-width: 892px) {
-/*tablet size*/
-    
+    .navigation-narrow {
+        display: none;
+    }   
+
+
+    .wrapper-shows {
+        grid-template-columns: repeat(3, 31.5vw); 
+        grid-template-rows: 29vw;
+    }
+
+
+
+    .img-shows {
+        height: 16vw;
+        background-image: url('https://www.sfjazz.org/sites/default/files/articlehero_hotplate_gil_scott-heron.jpg?1339632935');
+    }
+
+    .text-shows a {
+        font-size: 1.4vw;
+    }
+
+
+    .tags a{
+        padding: 0.3vw;
+        font-size: 1.2vw;
+    }
+
+    .navigation-narrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 650px) {
+    /*small tablet*/
+
     .navigation-narrow {
         display: none;
     }
 
-    .wrapper {
-        display: inline;
+    .wrapper-shows {
+        grid-template-columns: repeat(2, 48vw); 
+        grid-template-rows: 43vw;      
     }
 
-    .one {
-        color: #ffb5bf;
-        padding: 10px;
+
+    .img-shows {
+        height: 24vw;
+        background-image: url('https://www.sfjazz.org/sites/default/files/articlehero_hotplate_gil_scott-heron.jpg?1339632935');
     }
 
-    .two { 
-        color: #9addf9;
-        padding: 10px;
+    .text-shows a {
+        font-size: 2vw;
     }
 
-    .main {
-        margin-top: 50px;
-    }    
+    .tags a{
+        padding: 0.5vw;
+        font-size: 1.5vw;
+    }
 
+
+    .navigation-narrow {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 570px) {
+
+@media screen and (max-width: 650px) {
 /*mobile size*/
 
-    .main {
-            margin-top: 50px;
-        }    
+    /*content of page*/
+    .wrapper-shows {
+        grid-template-columns: repeat(1, 96vw); 
+        grid-template-rows: 80vw;
+    }
 
+
+    .img-shows {
+        height: 45vw;
+        background-image: url('https://www.sfjazz.org/sites/default/files/articlehero_hotplate_gil_scott-heron.jpg?1339632935');
+    }
+
+    .text-shows a {
+        font-size: 3.4vw;
+    }
+
+    .tags a{
+        padding: 0.8vw;
+        font-size: 2.2vw;
+    }
+
+
+    /*mobile navbar*/
     .navbar {
         display: none;
     }
@@ -284,4 +327,6 @@ ul {
         padding: 10px;
     }
 
-}
+
+
+
