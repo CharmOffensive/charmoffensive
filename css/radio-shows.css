@@ -114,10 +114,8 @@ ul {
     }
 
     .wrapper-shows {
-        /*display: grid;*/
-        grid-template-columns: repeat(4, 23.5vw); 
+        grid-template-columns: repeat(4, 23.7vw); 
         grid-template-rows: 22vw;
-        /*grid-gap: 15px;*/
         
     }
 
@@ -248,7 +246,6 @@ ul {
         position: fixed;
         width: 100%;
         background-color: #0f0f0f;
-        margin: 0;
         margin: 0 auto;
 
     }
@@ -268,8 +265,8 @@ ul {
     }
 
     .menu-button:hover, .menu-button:focus {
-    background-color: #0f0f0f;
-}
+        background-color: #0f0f0f;
+    }
 
     #menu-narrow {
         position: relative;
@@ -313,20 +310,6 @@ ul {
         display: block;
     }
 
-    .wrapper {
-        display: inline;
-    }
-
-    .one {
-        color: #ffb5bf;
-        padding: 10px;
-    }
-
-    .two { 
-        color: #9addf9;
-        padding: 10px;
-    }
-
-
+}
 
 
