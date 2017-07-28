@@ -1,7 +1,7 @@
 /*standard CSS for everywhere*/
 
 body {
-        background-color: #0f0f0f;
+        background-color: #0d0d0d;
         color: white;
         font-family: "Courier New", Courier, monospace;
 }
@@ -45,7 +45,7 @@ ul {
     width: 100%;
     border-bottom: 1px solid white;
     margin: 0;
-    background-color: #0f0f0f;
+    background-color: #0d0d0d;
     margin: 0 auto;
 }
 
@@ -140,7 +140,7 @@ ul {
         top: 0;
         position: fixed;
         width: 100%;
-        background-color: #0f0f0f;
+        background-color: #0d0d0d;
         margin: 0;
         margin: 0 auto;
 
@@ -153,7 +153,7 @@ ul {
 
     .menu-button {
         font-family: "Courier New", Courier, monospace;
-        background-color: #0f0f0f;
+        background-color: #0d0d0d;
         color: white;
         border: none;
         font-size: 1em;
@@ -161,13 +161,13 @@ ul {
     }
 
     .menu-button:hover, .menu-button:focus {
-    background-color: #0f0f0f;
+    background-color: #0d0d0d;
 }
 
     #menu-narrow {
         position: relative;
         display: inline-block;
-        background-color: #0f0f0f;
+        background-color: #0d0d0d;
         
         
     }
@@ -179,12 +179,12 @@ ul {
         top: 50px;
         width: 125px;
         z-index: 1;
-        background-color: #0f0f0f;
+        background-color: #0d0d0d;
         
     }
 
     .dropdown-content a {
-        background-color: #0f0f0f;
+        background-color: #0d0d0d;
         color: white;
         text-decoration: none;
         padding: 12px 16px;
@@ -192,7 +192,7 @@ ul {
     }
 
     .dropdown-content a:hover {
-        color: #0f0f0f;
+        color: #0d0d0d;
         background-color: white;
     }
 
