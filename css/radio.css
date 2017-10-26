@@ -19,7 +19,7 @@ hr {
 }
 
 
-li a {
+.navbar li a {
     float: left;
     padding: 10px;
     text-align: center;
@@ -28,7 +28,7 @@ li a {
     margin-right: 10px;
 }
 
-li a:hover {
+.navbar li a:hover {
     color: #dddddd
 }
 
@@ -47,6 +47,17 @@ ul {
     margin: 0;
     background-color: #0d0d0d;
     margin: 0 auto;
+}
+
+.showlink {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #ffb5bf;
+}
+
+.showlink:hover {
+    color:white;
 }
 
 
